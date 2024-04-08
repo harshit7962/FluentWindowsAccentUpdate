@@ -6,6 +6,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+	  <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
+
+	<PropertyGroup>
+		<WpfRepoRoot>C:\Users\hmishra\Desktop\Git\harshit7962\wpf</WpfRepoRoot>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+	<Import Project="$(WpfRepoRoot)\eng\wpf-debug.targets" />
 
 </Project>
